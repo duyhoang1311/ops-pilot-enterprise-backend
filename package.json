@@ -5,11 +5,32 @@
   "description": "Encore Typescript Starter",
   "license": "MPL-2.0",
   "type": "module",
+  "scripts": {
+    "cron": "encore run jobs/runner.ts"
+  },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^20.5.7",
-    "typescript": "^5.2.2"
+    "@types/node-cron": "^3.0.11",
+    "cross-env": "^7.0.3",
+    "prisma": "^6.7.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
-    "encore.dev": "^1.46.20"
+    "@dfinity/auth-client": "^2.4.1",
+    "@prisma/client": "^6.7.0",
+    "@types/express": "^5.0.1",
+    "@types/json2csv": "^5.0.7",
+    "auth-client": "^0.4.11",
+    "bcrypt": "^5.1.1",
+    "better-auth": "^1.2.7",
+    "encore.dev": "^1.46.22",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-cron": "^4.0.4"
   }
 }
